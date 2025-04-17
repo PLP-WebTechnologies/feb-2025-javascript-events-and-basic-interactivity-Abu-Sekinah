@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: #eee;
+}
+
+form {
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+input, button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.feedback {
+  margin-top: 10px;
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.toggle-mode {
+  margin-top: 20px;
+}
